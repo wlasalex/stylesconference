@@ -33,7 +33,6 @@ ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
@@ -165,12 +164,7 @@ h3,
 h4 {
   color: #648880;
 }
-
-h1, 
-h3,
-h4,
-h5,
-p {
+h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
@@ -236,14 +230,16 @@ a {
 a:hover {
   color: #a9b2b9;
 }
-p a {
+p
+a {
   border-bottom: 1px solid #dfe2e5;
 }
 
 .primary-header a,
-.primary-footer a {
+  .primary-footer a {
   color: #fff;
   }
+
   .primary-header a:hover,
   .primary-footer a:hover {
   color: #648880;
@@ -334,6 +330,16 @@ p a {
   text-align: right;
 }
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
 /*
   ========================================
   Главная страница
@@ -359,5 +365,15 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
-
-
+/*
+  ========================================
+  Спикеры
+  ========================================
+*/
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
