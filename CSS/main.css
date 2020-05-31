@@ -39,8 +39,10 @@ q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -349,13 +351,15 @@ a {
   text-align: right;
 }
 
-.nav li {
+.nav
+li {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
 }
 
-.nav li:last-child {
+.nav
+li:last-child {
   margin-right: 0;
 }
 
@@ -407,6 +411,7 @@ img {
   padding-bottom: 22px;
   text-align: center;
 }
+
 .speaker-info img {
   border-radius: 50%;
   height: 130px;
@@ -423,6 +428,7 @@ img {
 .venue-theatre {
   margin-bottom: 66px;
 }
+
 .venue-hotel {
   margin-bottom: 22px;
 }
@@ -448,7 +454,8 @@ textarea {
   font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.register-group label {
+.register-group
+label {
   color: #648880;
   cursor: pointer;
   font-weight: 400;
@@ -514,12 +521,14 @@ thead {
   line-height: 44px;
 }
 
-thead th {
+thead
+th {
   color: #648880;
   font-size: 24px;
 }
 
-tbody th {
+tbody
+th {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
@@ -527,28 +536,34 @@ tbody th {
   text-transform: uppercase;
 }
 
-tbody td {
+tbody
+td {
   border-top: 1px solid #dfe2e5;
   padding-top: 21px;
 }
 
-tbody td:first-of-type {
+tbody
+td:first-of-type {
   padding-right: 15px;
 }
-tbody td:last-of-type {
+tbody
+td:last-of-type {
   padding-left: 15px;
 }
 
-tbody td:only-of-type {
+tbody
+td:only-of-type {
   padding-left: 0;
   padding-right: 0;
 }
 
-table a {
+table
+a {
   color: #888;
 }
 
-table h4 {
+table
+h4 {
   margin-bottom: 0;
 }
 
