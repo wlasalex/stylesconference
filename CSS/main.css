@@ -92,7 +92,6 @@ article,
 aside,
 details,
 figcaption,
-figure,
 footer,
 header,
 hgroup,
@@ -104,6 +103,7 @@ section {
 
 body {
     line-height: 1;
+}
 
 ol
 ul {
@@ -296,7 +296,8 @@ em {
     text-align: center;
 }
 
-.lead p {
+.lead
+p {
     font-size: 21px;
     line-height: 33px;
 }
@@ -322,12 +323,12 @@ a {
 }
 
 .primary-header a,
-    .primary-footer a {
+.primary-footer a {
     color: #fff;
-    }
+}
 
-    .primary-header a:hover,
-    .primary-footer a:hover {
+.primary-header a:hover,
+.primary-footer a:hover {
     color: #648880;
 }
 
@@ -343,7 +344,7 @@ a {
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
-    letter-spacing: 0.5px;
+    letter-spacing:0.5px;
     margin: 0;
     text-transform: uppercase;
 }
@@ -381,7 +382,7 @@ a {
     float: left;
     font-size: 48px;
     font-weight: 100;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
     line-height: 44px;
     padding: 40px 0 22px 0;
     text-transform: uppercase;
