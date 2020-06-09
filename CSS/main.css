@@ -150,8 +150,8 @@ body {
 *:before,
 *:after {
     -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-                    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container,
@@ -482,7 +482,7 @@ img {
     Спикеры
     ========================================
 */
-    
+
 .speaker-info {
     border: 1px solid #dfe2e5;
     border-radius: 5px;
@@ -570,7 +570,7 @@ label {
     Расписание
     ========================================
 */
-    
+
 table {
     margin-bottom: 44px;
     width: 100%;
@@ -625,6 +625,7 @@ tbody
 td:first-of-type {
     padding-right: 15px;
 }
+
 tbody
 td:last-of-type {
     padding-left: 15px;
