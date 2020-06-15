@@ -296,8 +296,7 @@ em {
     text-align: center;
 }
 
-.lead
-p {
+.lead p {
     font-size: 21px;
     line-height: 33px;
 }
@@ -317,8 +316,7 @@ a:hover {
     color: #a9b2b9;
 }
 
-p
-a {
+p a {
     border-bottom: 1px solid #dfe2e5;
 }
 
@@ -428,15 +426,13 @@ a {
     text-align: right;
 }
 
-.nav
-li {
+.nav li {
     display: inline-block;
     margin: 0 10px;
     vertical-align: top;
 }
 
-.nav
-li:last-child {
+.nav li:last-child {
     margin-right: 0;
 }
 
@@ -453,28 +449,24 @@ li:last-child {
     text-align: center;
 }
 
-.hero
-h2 {
+.hero h2 {
     font-size: 36px;
 }
 
-.hero
-p {
+.hero p {
     font-size: 24px;
     font-weight: 100;
 }
 
-.teaser
-a:hover h3 {
+.teaser a:hover h3 {
     color: #a9b2b9;
 }
 
-.teaser
-img {
+.teaser img {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 /*
@@ -533,8 +525,7 @@ textarea {
     font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.register-group
-label {
+.register-group label {
     color: #648880;
     cursor: pointer;
     font-weight: 400;
@@ -600,14 +591,12 @@ thead {
     line-height: 44px;
 }
 
-thead
-th {
+thead th {
     color: #648880;
     font-size: 24px;
 }
 
-tbody
-th {
+tbody th {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
@@ -615,35 +604,29 @@ th {
     text-transform: uppercase;
 }
 
-tbody
-td {
+tbody td {
     border-top: 1px solid #dfe2e5;
     padding-top: 21px;
 }
 
-tbody
-td:first-of-type {
+tbody td:first-of-type {
     padding-right: 15px;
 }
 
-tbody
-td:last-of-type {
+tbody td:last-of-type {
     padding-left: 15px;
 }
 
-tbody
-td:only-of-type {
+tbody td:only-of-type {
     padding-left: 0;
     padding-right: 0;
 }
 
-table
-a {
+table a {
     color: #888;
 }
 
-table
-h4 {
+table h4 {
     margin-bottom: 0;
 }
 
