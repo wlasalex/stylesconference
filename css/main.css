@@ -270,7 +270,8 @@ h5 {
     font-weight: 400;
     text-transform: uppercase;
 }
-.primary-header{
+
+.primary-header {
      display: flex;
      justify-content: space-between;
 }
@@ -381,7 +382,7 @@ p a {
     border-top: 4px solid #648880;
     font-size: 40px;
     font-weight: 100;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     line-height: 44px;
     padding: 40px 0 22px 0;
     text-transform: uppercase;
@@ -462,10 +463,11 @@ p a {
 }
 
 .teaser a h3 {
-    padding: 3px 0 3px 0;
+    padding: 3px 0;
     text-align: center;
     transition: 0.25s;
 }
+
 .teaser a:hover h3 {
     background-color: #2d5d81;
     border-radius: 5px;
@@ -479,6 +481,7 @@ p a {
     max-width: 100%;
     transition: 0.25s;
 }
+
 .teaser a:hover img {
     opacity: 0.8;
 }
