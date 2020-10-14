@@ -420,7 +420,9 @@ p a {
 */
 
 .nav {
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .nav li {
