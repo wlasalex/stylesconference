@@ -110,8 +110,7 @@ body {
     line-height: 1;
 }
 
-ol ul {
-    list-style: none;
+ul {
     display: flex;
 }
 
@@ -420,9 +419,7 @@ p a {
 */
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: right;
 }
 
 .nav li {
