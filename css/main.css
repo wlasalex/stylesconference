@@ -87,6 +87,11 @@ video {
     vertical-align: baseline;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,9 +110,8 @@ body {
     line-height: 1;
 }
 
-ol
-ul {
-    list-style: none;
+.nav-items {
+    display: flex;
 }
 
 blockquote,
@@ -137,7 +141,10 @@ table {
 body {
     background: #293f50;
     color: #888;
+    display: flex;
+    flex-direction: column;
     font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    min-height: 100%;
 }
 
 /*
@@ -168,6 +175,7 @@ body {
 .grid,
 .col-1-3,
 .col-2-3 {
+    display: flex;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -188,33 +196,12 @@ body {
 
 /*
     ========================================
-    Clearfix
-    ========================================
-*/
-
-.group:before,
-.group:after {
-    content: '';
-    display: table;
-}
-
-.group:after {
-    clear: both;
-}
-
-.group {
-    clear: both;
-    *zoom: 1;
-}
-
-/*
-    ========================================
     Полосы
     ========================================
 */
 
 .row,
-.row-alt{
+.row-alt {
     min-width: 960px;
 }
 
@@ -277,6 +264,11 @@ h5 {
     text-transform: uppercase;
 }
 
+.primary-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 strong {
     font-weight: 400;
 }
@@ -310,6 +302,7 @@ em {
 a {
     color: #648880;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 a:hover {
@@ -327,6 +320,7 @@ p a {
 
 .primary-header a:hover,
 .primary-footer a:hover {
+    border-bottom: 2px solid #fff;
     color: #648880;
 }
 
@@ -342,19 +336,21 @@ p a {
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
     margin: 0;
     text-transform: uppercase;
 }
 
 .btn-alt {
-    border: 1px solid #fff;
+    border: 1px solid #dfe2e5;
     padding: 10px 30px;
+    transition: 0.25s;
 }
 
 .btn-alt:hover {
     background: #fff;
-    color: #648880;
+    color: #191a4b;
+    font-weight: 700;
 }
 
 .btn-default {
@@ -368,7 +364,6 @@ p a {
     background: #77a198;
 }
 
-
 /*
     ========================================
     Основной заголовок
@@ -377,8 +372,7 @@ p a {
 
 .logo {
     border-top: 4px solid #648880;
-    float: left;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 100;
     letter-spacing: 0.5px;
     line-height: 44px;
@@ -406,13 +400,15 @@ p a {
 
 .primary-footer {
     color: #648880;
+    display: flex;
     font-size: 14px;
+    justify-content: space-between;
+    margin-top: auto;
     padding-bottom: 44px;
     padding-top: 44px;
 }
 
 .primary-footer small {
-    float: left;
     font-weight: 400;
 }
 
@@ -458,8 +454,16 @@ p a {
     font-weight: 100;
 }
 
+.teaser a h3 {
+    padding: 3px 0;
+    text-align: center;
+    transition: 0.25s;
+}
+
 .teaser a:hover h3 {
-    color: #a9b2b9;
+    background-color: #2d5d81;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .teaser img {
@@ -467,6 +471,11 @@ p a {
     display: block;
     margin-bottom: 22px;
     max-width: 100%;
+    transition: 0.25s;
+}
+
+.teaser a:hover img {
+    opacity: 0.8;
 }
 
 /*
