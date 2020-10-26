@@ -92,7 +92,6 @@ body {
     height: 100%;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -132,12 +131,6 @@ table {
     border-spacing: 0;
 }
 
-/*
-    ========================================
-    Пользовательские стили
-    ========================================
-*/
-
 body {
     background: #293f50;
     color: #888;
@@ -146,12 +139,6 @@ body {
     font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     min-height: 100%;
 }
-
-/*
-    ========================================
-    Сетка
-    ========================================
-*/
 
 *,
 *:before,
@@ -194,12 +181,6 @@ body {
     width: 66.66%;
 }
 
-/*
-    ========================================
-    Полосы
-    ========================================
-*/
-
 .row,
 .row-alt {
     min-width: 960px;
@@ -218,17 +199,11 @@ body {
     padding: 44px 0 22px 0;
 }
 
-/*
-    ========================================
-    Типографика
-    ========================================
-*/
-
 h1,
 h2,
 h3,
 h4 {
-    color: #648880;
+    color: @primary-color;
 }
 
 h1,
@@ -273,40 +248,28 @@ em {
     font-style: italic;
 }
 
-/*
-    ========================================
-    Вступление
-    ========================================
-*/
-
 .lead {
     text-align: center;
 
-         p {
-           font-size: 21px;
-           line-height: 33px;
-         }
+        p {
+            font-size: 21px;
+            line-height: 33px;
+        }
 }
 
-/*
-    ========================================
-    Ссылки
-    ========================================
-*/
-
 a {
-    color: #648880;
+    color: @primary-color;
     text-decoration: none;
     transition: 0.25s;
 
-         &:hover {
-             color: #a9b2b9;
+    &:hover {
+        color: #a9b2b9;
     }
 }
 
 p {
     a {
-    border-bottom: 1px solid #dfe2e5;
+        border-bottom: 1px solid #dfe2e5;
     }
 }
 

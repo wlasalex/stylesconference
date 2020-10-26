@@ -15,13 +15,16 @@
 }
 
 .teaser {
-
     img {
         border-radius: 5px;
         display: block;
         margin-bottom: 22px;
         max-width: 100%;
         transition: 0.25s;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 
     a {
@@ -29,16 +32,12 @@
             padding: 3px 0;
             text-align: center;
             transition: 0.25s;
-        }
 
-        &:hover {
-              background-color: #2d5d81;
-              border-radius: 5px;
-               color: #fff;
-        }
-
-          &:hover img {
-             opacity: 0.8;
+            &:hover {
+                background-color: #2d5d81;
+                border-radius: 5px;
+                color: #fff;
+            }
         }
     }
 }

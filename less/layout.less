@@ -1,14 +1,20 @@
 .primary-header {
     display: flex;
     justify-content: space-between;
-     
+
     a {
         color: #fff;
+
         &:hover {
             border-bottom: 2px solid #fff;
-            color: #648880;
+            color: @primary-color;
         }
     }
+}
+
+.grid {
+    margin: 0 auto;
+    width: 960px;
 }
 
 .container {
@@ -17,13 +23,8 @@
     .grid;
 }
 
- .grid {
-    margin: 0 auto;
-    width: 960px;
-}
-
 .logo {
-    border-top: 4px solid #648880;
+    border-top: 4px solid @primary-color;
     font-size: 40px;
     font-weight: 100;
     letter-spacing: 0.5px;
@@ -45,7 +46,7 @@
 }
 
 .primary-footer {
-    color: #648880;
+    color: @primary-color;
     display: flex;
     font-size: 14px;
     justify-content: space-between;
@@ -55,9 +56,10 @@
 
     a {
         color: #fff;
+
         &:hover {
             border-bottom: 2px solid #fff;
-            color: #648880;
+            color: @primary-color;
         }
     }
 }
@@ -68,8 +70,8 @@
 
 .nav {
     li {
-    display: inline-block;
-    margin: 0 10px;
-    vertical-align: top;
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
     }
 }
