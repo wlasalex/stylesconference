@@ -3,10 +3,12 @@
     margin: 0 0 22px 30px;
 }
 
-input,
-select,
-textarea {
-    font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+.form-control {
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
 }
 
 .register-group {
@@ -17,18 +19,15 @@ textarea {
     }
 
     input {
-        .form-control;
         width: 100%;
     }
 
     select {
-        .form-control;
         height: 34px;
         width: 60px;
     }
 
     textarea {
-        .form-control;
         width: 100%;
         height: 78px;
     }
@@ -36,13 +35,4 @@ textarea {
 
 .holder {
     display: flex;
-}
-
-.form-control {
-    border: 1px solid @secondary-color;
-    border-radius: 5px;
-    color: #888;
-    display: block;
-    margin: 5px 0 27px 0;
-    padding: 5px 8px;
 }
