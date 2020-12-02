@@ -1,11 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8" />
     <title>Styles Conference</title>
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,100&subset=cyrillic,latin" />
+    <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+    <script src="//cdn.jsdelivr.net/npm/less"></script>
 </head>
+
 <body>
     <header class="primary-header container group">
         <h1 class="logo">
@@ -26,24 +29,28 @@
             </nav>
         </div>
     </header>
+
     <section class="row-alt">
         <div class="lead container">
             <h1>Регистрация</h1>
-            <p>Каждый год мы стремимся невероятно провести время и в этом году мы
-               хотели бы чтобы вы присоединились к нам. Вход на конференцию стоит
-               всего лишь 99$ и это одна из лучших ценностей, которую вы найдёте.
+            <p>
+                Каждый год мы стремимся невероятно провести время и в этом году мы
+                хотели бы чтобы вы присоединились к нам. Вход на конференцию стоит
+                всего лишь 99$ и это одна из лучших ценностей, которую вы найдёте.
             </p>
         </div>
     </section>
+
     <section class="row">
-        <div class="grid">
+        <div class="grid holder">
             <section class="col-2-3">
                 <h2>Закажи билет на конференцию</h2>
                 <h5>$99 за билет</h5>
-                <p>Приобретите билет на Styles Conference, используя форму справа.
-                     Можно приобрести сразу несколько билетов, так что не стесняйтесь взять
-                     с собой друга или двух. После того, как ваш заказ будет готов, мы
-                     свяжемся с вами и предоставим квитанцию за покупку. Скоро увидимся!
+                <p>
+                    Приобретите билет на Styles Conference, используя форму справа.
+                    Можно приобрести сразу несколько билетов, так что не стесняйтесь взять
+                    с собой друга или двух. После того, как ваш заказ будет готов, мы
+                    свяжемся с вами и предоставим квитанцию за покупку. Скоро увидимся!
                 </p>
                 <h4>Зачем участвовать?</h4>
                 <ul class="why-attend">
@@ -55,16 +62,15 @@
             </section>
             <form class="col-1-3" action="#" method="post">
                 <fieldset class="register-group">
-                    <label>
+                    <label class="form-control">
                         Имя
                         <input type="text" name="name" placeholder="Полное имя" required />
                     </label>
-                    <label>
+                    <label class="form-control">
                         Email
                         <input type="email" name="email" placeholder="Адрес почты" required />
                     </label>
-                    <label>
-                        Число билетов
+                    <label class="form-control">
                         <select name="quantity" required>
                             <option value="1" selected>1</option>
                             <option value="2">2</option>
@@ -72,8 +78,9 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
+                        Число билетов
                     </label>
-                    <label>
+                    <label class="form-control">
                         Комментарии
                         <textarea name="comments"></textarea>
                     </label>
@@ -82,6 +89,7 @@
             </form>
         </div>
     </section>
+
     <footer class="primary-footer container group">
         <small>&copy; Styles Conference</small>
         <nav class="nav">
@@ -95,4 +103,5 @@
         </nav>
     </footer>
 </body>
+
 </html>

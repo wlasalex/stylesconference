@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Styles Conference</title>
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,100&subset=cyrillic,latin" />
+    <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+    <script src="//cdn.jsdelivr.net/npm/less"></script>
 </head>
 <body>
     <header class="primary-header container group">
@@ -26,27 +27,30 @@
             </nav>
         </div>
     </header>
+
     <section class="row-alt">
         <div class="lead container">
             <h1>Расписание</h1>
-            <p>Конференция открывается удивительными семинарами и продолжится двумя днями
-               невероятных разговоров и презентаций, которые проводятся при содействии ведущих
-               специалистов в отрасли.
+            <p>
+                Конференция открывается удивительными семинарами и продолжится двумя днями
+                невероятных разговоров и презентаций, которые проводятся при содействии ведущих
+                специалистов в отрасли.
             </p>
         </div>
     </section>
+
     <section class="row">
         <div class="container">
-<!-- Семинары -->
+            <!-- Семинары -->
             <table>
                 <thead>
                     <tr>
                         <th scope="row">
-                                Семинары
+                            Семинары
                         </th>
-                            <td class="schedule-offset" colspan="2">
-                                24 августа
-                            </td>
+                        <td class="schedule-offset" colspan="2">
+                            24 августа
+                        </td>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,7 +59,7 @@
                             <time datetime="08:30:00">8:30</time>
                         </th>
                         <td class="schedule-offset" colspan="2">
-                                Регистрация
+                            Регистрация
                         </td>
                     </tr>
                     <tr>
@@ -90,7 +94,7 @@
                         <td>
                             <a href="speakers.html#tessa-harmon">
                                 <h4>Тесса Хармон</h4>
-                                 Искусство кодирования: Генерация вязанных шаблонов
+                                Искусство кодирования: Генерация вязанных шаблонов
                             </a>
                         </td>
                         <td>
@@ -102,12 +106,12 @@
                     </tr>
                 </tbody>
             </table>
-<!-- Конференция -->
+            <!-- Конференция -->
             <table>
                 <thead>
                     <tr>
                         <th scope="row">
-                             Конференция
+                            Конференция
                         </th>
                         <td class="schedule-offset" colspan="2">
                             25 августа
@@ -119,7 +123,7 @@
                         <th scope="row">
                             <time datetime="08:30:00">8:30</time>
                         </th>
-                         <td class="schedule-offset" colspan="2">
+                        <td class="schedule-offset" colspan="2">
                             Регистрация
                         </td>
                     </tr>
@@ -144,7 +148,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                             <time datetime="10:30:00">10:30</time>
+                            <time datetime="10:30:00">10:30</time>
                         </th>
                         <td>
                             <a href="speakers.html#shay-howe">
@@ -181,7 +185,7 @@
                             <time datetime="12:30:00">12:30</time>
                         </th>
                         <td class="schedule-offset" colspan="2">
-                                Обед
+                            Обед
                         </td>
                     </tr>
                     <tr>
@@ -196,7 +200,7 @@
                         </td>
                         <td>
                             <a href="speakers.html#darby-frey">
-                                <h4>	Дарби Фрей</h4>
+                                <h4>Дарби Фрей</h4>
                                 Построение мобильного макета
                             </a>
                         </td>
@@ -207,14 +211,14 @@
                         </th>
                         <td>
                             <a href="speakers.html#brad-smith">
-                                <h4>	Брэд Смит</h4>
+                                <h4>Брэд Смит</h4>
                                 What Designers and Strategists Can Learn from Dick Fosbury
                             </a>
                         </td>
                         <td>
                             <a href="speakers.html#erica-decker">
                                 <h4>Erica Decker</h4>
-                                 Какие дизайнеры и стратеги могут учиться у Дика Фосбери
+                                Какие дизайнеры и стратеги могут учиться у Дика Фосбери
                             </a>
                         </td>
                     </tr>
@@ -239,7 +243,7 @@
                     </tr>
                 </tbody>
             </table>
-<!-- Конференция -->
+            <!-- Конференция -->
             <table>
                 <thead>
                     <tr>
@@ -257,7 +261,7 @@
                             <time datetime="08:30:00">8:30</time>
                         </th>
                         <td class="schedule-offset" colspan="2">
-                             Регистрация
+                            Регистрация
                         </td>
                     </tr>
                     <tr>
@@ -267,7 +271,7 @@
                         <td colspan="2">
                             <a href="speakers.html#aaron-irizarry">
                                 <h4>Аарон Ирисарри</h4>
-                                 Проектирование культуры дизайна
+                                Проектирование культуры дизайна
                             </a>
                         </td>
                     </tr>
@@ -286,13 +290,13 @@
                         <td>
                             <a href="speakers.html#jen-myers">
                                 <h4>Джен Майерс</h4>
-                                 Обучение CSS для приятной игры
+                                Обучение CSS для приятной игры
                             </a>
                         </td>
                         <td>
                             <a href="speakers.html#aj-self">
                                 <h4>ЭйДжи Селф</h4>
-                                 (Надо) Тестировать ваш JavaScript
+                                (Надо) Тестировать ваш JavaScript
                             </a>
                         </td>
                     </tr>
@@ -302,14 +306,14 @@
                         </th>
                         <td>
                             <a href="speakers.html#dan-denney">
-                                <h4>	Дэн Денни</h4>
+                                <h4>Дэн Денни</h4>
                                 Создание писем на HTML может быть весело
                             </a>
                         </td>
                         <td>
                             <a href="speakers.html#maya-bruck">
-                                <h4>	Майя Брук</h4>
-                                    Так ты хочешь быть единорогом
+                                <h4>Майя Брук</h4>
+                                Так ты хочешь быть единорогом
                             </a>
                         </td>
                     </tr>
@@ -378,6 +382,7 @@
             </table>
         </div>
     </section>
+
     <footer class="primary-footer container group">
         <small>&copy; Styles Conference</small>
         <nav class="nav">
