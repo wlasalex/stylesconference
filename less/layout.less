@@ -54,8 +54,19 @@
     margin-top: auto;
     padding-bottom: 44px;
     padding-top: 44px;
+}
 
-    a {
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    list-style-type: none;
+
+    &__link {
         color: #fff;
 
         &:hover {
@@ -65,18 +76,6 @@
     }
 }
 
-.nav-items {
-    display: flex;
-}
-
-.nav {
-    li {
-        display: inline-block;
-        margin: 0 10px;
-        vertical-align: top;
-        list-style-type: none;
-    }
-}
 
 .col-1-3 {
     width: 33.33%;
