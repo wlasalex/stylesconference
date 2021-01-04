@@ -4,11 +4,11 @@
     padding: 22px 80px 66px 80px;
     text-align: center;
 
-    h2 {
+    &__title {
         font-size: 36px;
     }
 
-    p {
+    &__text {
         font-size: 24px;
         font-weight: 100;
     }
@@ -19,7 +19,7 @@
 }
 
 .teaser {
-    img {
+    &__img {
         border-radius: 5px;
         display: block;
         margin-bottom: 22px;
@@ -31,17 +31,15 @@
         }
     }
 
-    a {
-        h3 {
-            padding: 3px 0;
-            text-align: center;
-            transition: 0.25s;
+    &__title {
+        padding: 3px 0;
+        text-align: center;
+        transition: 0.25s;
 
-            &:hover {
-                background-color: #2d5d81;
-                border-radius: 5px;
-                color: #fff;
-            }
+        &:hover {
+            background-color: #2d5d81;
+            border-radius: 5px;
+            color: #fff;
         }
     }
 }

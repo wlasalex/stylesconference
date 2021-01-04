@@ -2,13 +2,28 @@
     display: flex;
     justify-content: space-between;
 
-    a {
+    &__link {
         color: #fff;
 
         &:hover {
             border-bottom: 2px solid #fff;
             color: @primary-color;
         }
+    }
+
+    &__tagline {
+        margin: 66px 0 22px 0;
+        text-align: right;
+    }
+
+    &__logo {
+        border-top: 4px solid @primary-color;
+        font-size: 40px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        line-height: 44px;
+        padding: 40px 0 22px 0;
+        text-transform: uppercase;
     }
 }
 
@@ -17,26 +32,23 @@
     width: 960px;
 }
 
+.col-1-3 {
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-2-3 {
+    width: 66.66%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .container {
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
     width: 960px;
-}
-
-.logo {
-    border-top: 4px solid @primary-color;
-    font-size: 40px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    line-height: 44px;
-    padding: 40px 0 22px 0;
-    text-transform: uppercase;
-}
-
-.tagline {
-    margin: 66px 0 22px 0;
-    text-align: right;
 }
 
 .primary-nav {
@@ -54,8 +66,19 @@
     margin-top: auto;
     padding-bottom: 44px;
     padding-top: 44px;
+}
 
-    a {
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    list-style-type: none;
+
+    &__link {
         color: #fff;
 
         &:hover {
@@ -63,34 +86,6 @@
             color: @primary-color;
         }
     }
-}
-
-.nav-items {
-    display: flex;
-}
-
-.nav {
-    li {
-        display: inline-block;
-        margin: 0 10px;
-        vertical-align: top;
-        list-style-type: none;
-    }
-}
-
-.col-1-3 {
-    width: 33.33%;
-}
-
-.grid,
-.col-1-3,
-.col-2-3 {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.col-2-3 {
-    width: 66.66%;
 }
 
 .row,
@@ -114,8 +109,8 @@
 .lead {
     text-align: center;
 
-        p {
-            font-size: 21px;
-            line-height: 33px;
-        }
+    &__inform {
+        font-size: 21px;
+        line-height: 33px;
+    }
 }

@@ -11,20 +11,30 @@
 
 <body>
     <header class="primary-header container group">
-        <h1 class="logo">
-            <a href="index.html">Styles <br />Conference</a>
+        <h1 class="primary-header__logo">
+            <a class="primary-header__link" href="index.html">Styles <br />Conference</a>
         </h1>
         <div>
-            <h3 class="tagline">
+            <h3 class="primary-header__tagline">
                 24&ndash;26 августа &mdash; Чикаго, штат Иллинойс
             </h3>
             <nav class="nav primary-nav">
-                <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="speakers.html">Спикеры</a></li>
-                    <li><a href="schedule.html">Расписание</a></li>
-                    <li><a href="venue.html">Место проведения</a></li>
-                    <li><a href="register.html">Регистрация</a></li>
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="speakers.html">Спикеры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="schedule.html">Расписание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="venue.html">Место проведения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="register.html">Регистрация</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -33,7 +43,7 @@
     <section class="row-alt">
         <div class="lead container">
             <h1>Регистрация</h1>
-            <p>
+            <p class="lead__inform">
                 Каждый год мы стремимся невероятно провести время и в этом году мы
                 хотели бы чтобы вы присоединились к нам. Вход на конференцию стоит
                 всего лишь 99$ и это одна из лучших ценностей, которую вы найдёте.
@@ -85,7 +95,7 @@
                         <textarea name="comments"></textarea>
                     </label>
                 </fieldset>
-                <input class="btn btn-default" type="submit" name="submit" value="Заказать" />
+                <input class="btn btn--default" type="submit" name="submit" value="Заказать" />
             </form>
         </div>
     </section>
@@ -93,15 +103,24 @@
     <footer class="primary-footer container group">
         <small>&copy; Styles Conference</small>
         <nav class="nav">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="speakers.html">Спикеры</a></li>
-                <li><a href="schedule.html">Расписание</a></li>
-                <li><a href="venue.html">Место проведения</a></li>
-                <li><a href="register.html">Регистрация</a></li>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a class="nav-item__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item__link" href="speakers.html">Спикеры</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item__link" href="schedule.html">Расписание</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item__link" href="venue.html">Место проведения</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item__link" href="register.html">Регистрация</a>
+                </li>
             </ul>
         </nav>
     </footer>
 </body>
-
 </html>
