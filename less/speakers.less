@@ -20,9 +20,10 @@
 
 .speaker {
     display: flex;
-    @media (max-width: 800px) {
-        flex-direction: column;
+
+    @media (max-width: @xl) {
         align-items: center;
+        flex-direction: column;
         text-align: center;
     }
 }
