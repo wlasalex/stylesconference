@@ -16,6 +16,11 @@
 
 .main-menu {
     display: flex;
+    @media (max-width: 800px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .teaser {
@@ -43,3 +48,9 @@
         }
     }
 }
+
+// @media (max-width: 800px) {
+//     .main-menu {
+//         flex-direction: column;
+//     }
+// }
