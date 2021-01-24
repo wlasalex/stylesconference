@@ -25,6 +25,12 @@
         padding: 40px 0 22px 0;
         text-transform: uppercase;
     }
+
+    @media (max-width: @xxl) {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .grid {
@@ -66,10 +72,21 @@
     margin-top: auto;
     padding-bottom: 44px;
     padding-top: 44px;
+
+    @media (max-width: @xxl) {
+        align-items: center;
+        flex-direction: column;
+
+    }
 }
 
 .nav-items {
     display: flex;
+
+    @media (max-width: @xs) {
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .nav-item {
@@ -112,5 +129,9 @@
     &__inform {
         font-size: 21px;
         line-height: 33px;
+    }
+
+    @media (max-width: @xl) {
+        width: 400px;
     }
 }
