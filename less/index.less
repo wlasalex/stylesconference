@@ -3,6 +3,7 @@
     line-height: 44px;
     padding: 22px 80px 66px 80px;
     text-align: center;
+    background-color: #293f55;
 
     &__title {
         font-size: 36px;
@@ -16,6 +17,12 @@
 
 .main-menu {
     display: flex;
+    padding: 0 70px;
+
+    @media (max-width: @xxxl) {
+        flex-direction: column;
+        padding: 0 30px;
+    }
 }
 
 .teaser {
